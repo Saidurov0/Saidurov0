@@ -1,0 +1,80 @@
+body{
+background-color: rgb(255, 255, 255);
+font-weight: 900;
+display: inline-block;
+}
+.product {
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .quantity-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #414141;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  #quantity {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    font-size: 30px;
+  }
+  
+  .stock-info {
+    margin: 10px 0;
+  }
+  
+  .price-info {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 5px;
+  }
+  
+  .old-price {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .discount-btn {
+    background-color: #4d4d4d06;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  image{
+    width: 50px;
+    height: 50px;
+  }
+  label{
+    font-size: 30px;
+    text-align: center;
+  }
+  a{
+    display: block;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 23px 23px 0 0;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+  }
+  .max-quantity{
+    /* font-weigh  : 900; */
+    line-height: 1;
+    font-size: 20px;
+  }
